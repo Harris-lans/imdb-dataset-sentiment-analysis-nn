@@ -1,0 +1,14 @@
+name: tensorflow
+channels:
+  - apple
+  - conda-forge
+dependencies:
+    - python=3.10
+    - pip>=19.0
+    - jupyter
+    - matplotlib
+    - ipykernel
+    - pip:
+        - tensorflow-macos
+        - tensorflow-metal
+        - prettytable
